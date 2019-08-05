@@ -1,4 +1,4 @@
-var EventEmitter = require("emitter");
+var EventEmitter = require("events");
 var util = require("util");
 
 function Greeter() {
